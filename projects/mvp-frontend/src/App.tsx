@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import _ from 'lodash';
 import './App.css';
 
-import { QueryPayload } from 'mvp-backend/src/types';
+import { QueryPayload } from 'mvp-shared-data';
 
 function App() {
   return (

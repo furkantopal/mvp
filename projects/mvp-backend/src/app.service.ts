@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import _ from 'lodash';
 
-import { QueryPayload } from './types';
+import { QueryPayload } from 'mvp-shared-data';
 
 @Injectable()
 export class AppService {

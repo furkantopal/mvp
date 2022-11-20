@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
-import { QueryPayload } from './types';
+import { QueryPayload } from 'mvp-shared-data';
 
 @Controller()
 export class AppController {

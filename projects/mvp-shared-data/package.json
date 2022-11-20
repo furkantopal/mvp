@@ -1,0 +1,29 @@
+{
+  "name": "mvp-shared-data",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Furkan Topal <topallfurkan@gmail.com>",
+  "homepage": "https://github.com/furkantopal/mvp#readme",
+  "license": "ISC",
+  "main": "lib/mvp-shared-data.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkantopal/mvp.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/mvp-shared-data.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/furkantopal/mvp/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
