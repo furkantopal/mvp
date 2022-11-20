@@ -1,11 +1,7 @@
 # `mvp-shared-data`
 
-> TODO: description
-
 ## Usage
 
 ```
-const mvpSharedData = require('mvp-shared-data');
-
-// TODO: DEMONSTRATE API
+import { * as sharedTypes } from '@ft/mvp-shared-data';
 ```

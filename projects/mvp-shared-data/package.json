@@ -1,7 +1,7 @@
 {
-  "name": "mvp-shared-data",
+  "name": "@ft/mvp-shared-data",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "Shared data for MVP",
   "author": "Furkan Topal <topallfurkan@gmail.com>",
   "homepage": "https://github.com/furkantopal/mvp#readme",
   "license": "ISC",
