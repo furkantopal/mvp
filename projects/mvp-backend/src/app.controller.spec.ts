@@ -16,7 +16,9 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return "MVP Backend Started!"', () => {
-      expect(appController.getHello()).toBe('MVP Backend Started!');
+      expect(appController.getInfo()).toEqual({
+        payload: 'mvp_backend_started',
+      });
     });
   });
 });

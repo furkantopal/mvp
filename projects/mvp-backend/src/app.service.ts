@@ -1,8 +1,11 @@
 import { Injectable } from '@nestjs/common';
+import _ from 'lodash';
+
+import { QueryPayload } from './types';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return JSON.stringify({ data: 'MVP Backend Started!' });
+  getInfo(): QueryPayload {
+    return { payload: _.snakeCase('MVP Backend Started!') };
   }
 }

@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import Button from '@mui/material/Button';
+import _ from 'lodash';
 import './App.css';
+
+import { QueryPayload } from 'mvp-backend/src/types';
 
 function App() {
   return (
@@ -9,7 +12,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Click <b>Get Data!</b> to show data from backend on the console.
+          Click <b>Get Data!</b> to show data from backend on the{' '}
+          {_.upperCase('console')}.
         </p>
 
         <div>
@@ -23,7 +27,7 @@ function App() {
                 },
               })
                 .then((response) => response.json())
-                .then((data) => console.log(data));
+                .then((data: QueryPayload) => console.log(data.payload));
             }}
           >
             Get Data!
