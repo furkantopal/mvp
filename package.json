@@ -9,7 +9,9 @@
     "projects/*"
   ],
   "scripts": {
-    "start": "lerna run --parallel start"
+    "start": "lerna run --parallel start",
+    "test": "cd ./projects/mvp-backend && npm run test && cd ../mvp-frontend && npm run test -- --watchAll=false",
+    "test:e2e": "cd ./projects/mvp-backend && npm run test:e2e"
   },
   "devDependencies": {
     "lerna": "^6.0.3",
