@@ -1,0 +1,18 @@
+{
+  "name": "mvp",
+  "version": "1.0.0",
+  "description": "mvp frontend and backend monorepo",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "start": "lerna run --parallel start"
+  },
+  "devDependencies": {
+    "lerna": "^6.0.3",
+    "typescript": "^4.9.3"
+  }
+}
